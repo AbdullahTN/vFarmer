@@ -1,0 +1,154 @@
+# ============================================
+# vFarmer - Main Farmer Menu Layout
+# ============================================
+# Slot Map (54 slots, 6 rows):
+#  0  1  2  3  4  5  6  7  8
+#  9 10 11 12 13 14 15 16 17
+# 18 19 20 21 22 23 24 25 26
+# 27 28 29 30 31 32 33 34 35
+# 36 37 38 39 40 41 42 43 44
+# 45 46 47 48 49 50 51 52 53
+#
+# Row 0-3: Products (36 slots)
+# Row 4: History | ---- filler ---- | XP | Filter | Upgrade All
+# Row 5: Sell All | Auto Sell | Collection | Back* | Settings | Next Page* | Move | Age | Appearance
+
+title: "menus.farmer.title"
+size: 54
+filler: "BLACK_STAINED_GLASS_PANE"
+
+# Product slots — all 36 slots in first 4 rows
+product-slots:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+
+items:
+  # ===== Row 4 (36-44) =====
+  history:
+    slot: 36
+    material: "PAPER"
+    name: "menus.farmer.items.log.name"
+    lore: "menus.farmer.items.log.lore"
+    action: "history"
+
+  xp:
+    slot: 44
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhiODFkODkzNWZjMTAxZTM1ZjNlNTRmNTM3YjYxMjgyMmYxOGZhZjc1MmE5MDAzN2NjNDIxNWE1ZGM4ODFlZiJ9fX0="
+    name: "menus.farmer.items.xp.name"
+    lore: "menus.farmer.items.xp.lore"
+    action: "xp"
+
+  filter:
+    slot: 40
+    material: "HOPPER"
+    name: "menus.farmer.items.filter.name"
+    lore: "menus.farmer.items.filter.lore"
+    action: "filter"
+
+  upgrade-all:
+    slot: 41
+    material: "EXPERIENCE_BOTTLE"
+    name: "menus.farmer.items.upgrade-all.name"
+    lore: "menus.farmer.items.upgrade-all.lore-upgrade"
+    lore-max: "menus.farmer.items.upgrade-all.lore-max"
+    action: "upgrade-all"
+
+  # ===== Row 5 (45-53) =====
+  sell-all:
+    slot: 45
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdmOGQ4YzM5Zjk5MjFhNjRkN2I3NTVkZTMyMmU0NDFmZGVkNGI3NzVhNzY1N2UwYjMxOTZiNmZkYTg2MzY0NiJ9fX0="
+    name: "menus.farmer.items.sell-all.name"
+    lore: "menus.farmer.items.sell-all.lore"
+    action: "sell-all"
+
+  auto-sell:
+    slot: 46
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUzNGM1MGZkY2E4ZTM2YzFlMDUwYjk2M2YyZTZlMWY3MGU0NjVlNTVjNDQzZjY4OTQ3NDQzNDA5Y2M2YTMzOCJ9fX0="
+    name: "menus.farmer.items.auto-sell.name"
+    lore: "menus.farmer.items.auto-sell.lore"
+    action: "auto-sell"
+
+  collection:
+    slot: 47
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBkOTY5Y2Q4YzhiMjkxNmIyNmExOTcyNTNlM2FkZmU5ODUzNzIwNDk0ZjIyYmUxOWEwODNiZjE4NGY5YzJiYyJ9fX0="
+    material-off: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFmMjU4ZGI3MjEzMGJmZDk3ZDIxOGM4OTRiYTA4MTQ5NmQyNGQ4NTZkYzYwNDFkMTk2MDZmZmZiNGFiZjJhYyJ9fX0="
+    name: "menus.farmer.items.collection.name-on"
+    name-off: "menus.farmer.items.collection.name-off"
+    lore: "menus.farmer.items.collection.lore-on"
+    lore-off: "menus.farmer.items.collection.lore-off"
+    action: "collection"
+
+  previous-page:
+    slot: 48
+    material: "ARROW"
+    name: "menus.farmer.items.pages.previous.name"
+    action: "previous-page"
+
+  settings:
+    slot: 49
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE0NDk4NmViZmI4NzU3ZGExMzc1Zjc0OTYxMDM0NTRlNmZjMWM1ZWY3M2QwMTNmYWNlNzQ5OWIxMzE4NGY3In19fQ=="
+    name: "menus.farmer.items.settings.name"
+    lore: "menus.farmer.items.settings.lore"
+    action: "settings"
+
+  next-page:
+    slot: 50
+    material: "ARROW"
+    name: "menus.farmer.items.pages.next.name"
+    action: "next-page"
+
+  move:
+    slot: 51
+    material: "ENDER_PEARL"
+    name: "menus.farmer.items.move.name"
+    lore: "menus.farmer.items.move.lore"
+    action: "move"
+
+  age:
+    slot: 52
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M2YjNlNjUzN2QxNmMxN2FjZDhlOGE4NGUzMTZlNTJlY2Q0YzFhZTVkYjc2MGZlOWE1ZTI4YzI2NDYwOGVkOCJ9fX0="
+    name: "menus.farmer.items.age.name"
+    lore: "menus.farmer.items.age.lore"
+    action: "age"
+
+  appearance:
+    slot: 53
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTIyMGM1ZmIxNmMwMDFmNTQ5YTRjYTRmOGMyNjU1MTkwNDQwY2Q1ZTY2ZDg3ZDA1YzE3YjRhYzcwOTRkZTU4OSJ9fX0="
+    name: "messages.settings-outfit-name"
+    lore: ""
+    action: "appearance"
+

@@ -1,0 +1,24 @@
+name: vFarmer
+version: 1.0.0
+main: com.asmus.vfarmer.VFarmer
+api-version: '1.20'
+authors: [Asmus1990]
+depend: [Vault]
+softdepend: [SuperiorSkyblock2, BentoBox, IridiumSkyblock, FabledSkyBlock, Lands, GriefPrevention, GriefDefender, Towny, UXClaim, HeadDatabase, PlaceholderAPI, FancyNpcs, Citizens]
+commands:
+  çiftçi:
+    description: Opens farmer menu or buys farmer
+    aliases: [ciftci, farmer]
+permissions:
+  nfarmer.admin:
+    description: Admin permission for farmer management
+    default: op
+  nfarmer.use:
+    description: Permission to use farmer
+    default: true
+  nfarmer.autoharvest:
+    description: Permission to use auto harvest feature
+    default: op
+  nfarmer.skin:
+    description: Permission to use NPC skin feature (VIP)
+    default: op

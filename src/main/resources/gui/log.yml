@@ -1,0 +1,72 @@
+# ============================================
+# vFarmer - Farmer History/Log Menu Layout
+# ============================================
+
+title: "menus.log.title"
+size: 54
+filler: ""
+
+product-slots: []
+
+# log-slots: Where log entries are placed (first 45 slots)
+log-slots:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+
+items:
+  back:
+    slot: 45
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc0OTQyZTMyNGE2NDhlOWFlZDcyZWFmMzY0NjkyMGEyOTI2NDM4YmU2NWVmM2FlYjkzZjZhMmVjYjAzZTU5NiJ9fX0="
+    name: "menus.log.items.back.name"
+    lore: ""
+    action: "back"
+
+  clear:
+    slot: 49
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQwNGU2NmI1NTYzMjc0ZDAwMDkxZWNmMDhiNTFiMWFkMmI5YjE4NmM0MDkxZWIyYjhmYTlmZjFhMzc3ZmY1ZSJ9fX0="
+    name: "menus.log.items.clear.name"
+    lore: "menus.log.items.clear.lore"
+    action: "clear"

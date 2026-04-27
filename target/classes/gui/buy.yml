@@ -1,0 +1,31 @@
+# ============================================
+# vFarmer - Buy Farmer Menu Layout
+# ============================================
+
+title: "buy.title"
+size: 27
+filler: "BLACK_STAINED_GLASS_PANE"
+
+product-slots: []
+
+items:
+  farmer-info:
+    slot: 11
+    texture: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkMjdhMDBkOGI1MDRmOTMyYTE1YzI1ZTE0YmUzOWY4ODU2YTU1NGQ1ODVmMWY3MjdiMGI3OWMyYmE2YjkyYiJ9fX0="
+    name: "buy.items.farmer.name"
+    lore: "buy.items.farmer.lore"
+    action: "none"
+
+  cancel:
+    slot: 13
+    texture: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=="
+    name: "buy.items.cancel.name"
+    lore: "buy.items.cancel.lore"
+    action: "cancel"
+
+  buy:
+    slot: 15
+    texture: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5YTVjOTVlZTE3YWJmZWY0NWM4ZGMyMjQxODk5NjQ5NDRkNTYwZjE5YTQ0ZjE5ZjhhNDZhZWYzZmVlNDc1NiJ9fX0="
+    name: "buy.items.buy.name"
+    lore: "buy.items.buy.lore"
+    action: "buy"

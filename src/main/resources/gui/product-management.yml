@@ -1,0 +1,45 @@
+# ============================================
+# vFarmer - Product Management Menu Layout
+# ============================================
+
+title: "menus.product-management.title"
+size: 27
+filler: "BLACK_STAINED_GLASS_PANE"
+
+product-slots: []
+
+items:
+  visual:
+    slot: 4
+    material: "DYNAMIC"
+    name: "menus.product-management.items.visual.name"
+    lore: "menus.product-management.items.visual.lore"
+    action: "none"
+
+  sell:
+    slot: 11
+    material: "GOLD_INGOT"
+    name: "menus.product-management.items.sell.name"
+    lore: "menus.product-management.items.sell.lore"
+    action: "sell"
+
+  withdraw:
+    slot: 13
+    material: "CHEST"
+    name: "menus.product-management.items.item.name"
+    lore: "menus.product-management.items.item.lore"
+    action: "withdraw"
+
+  storage:
+    slot: 15
+    material: "BARREL"
+    name: "menus.product-management.items.storage.name"
+    lore: "menus.product-management.items.storage.lore"
+    action: "storage"
+
+  back:
+    slot: 22
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc0OTQyZTMyNGE2NDhlOWFlZDcyZWFmMzY0NjkyMGEyOTI2NDM4YmU2NWVmM2FlYjkzZjZhMmVjYjAzZTU5NiJ9fX0="
+    name: "menus.product-management.items.back.name"
+    lore: "menus.product-management.items.back.lore"
+    action: "back"

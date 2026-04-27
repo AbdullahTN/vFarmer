@@ -1,0 +1,41 @@
+# ============================================
+# vFarmer - Farmer Level Menu Layout
+# ============================================
+
+title: "menus.level.title"
+size: 45
+filler: "BLACK_STAINED_GLASS_PANE"
+
+product-slots: []
+
+# Level slots - where level items are placed (slots 10-16 for 6 levels + current)
+level-slots:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+
+items:
+  info:
+    slot: 4
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhiODFkODkzNWZjMTAxZTM1ZjNlNTRmNTM3YjYxMjgyMmYxOGZhZjc1MmE5MDAzN2NjNDIxNWE1ZGM4ODFlZiJ9fX0="
+    name: "menus.level.items.info.name"
+    lore: "menus.level.items.info.lore"
+    action: "none"
+
+  progress:
+    slot: 22
+    material: "EXPERIENCE_BOTTLE"
+    name: "menus.level.items.progress.name"
+    lore: "menus.level.items.progress.lore"
+    action: "none"
+
+  back:
+    slot: 40
+    material: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc0OTQyZTMyNGE2NDhlOWFlZDcyZWFmMzY0NjkyMGEyOTI2NDM4YmU2NWVmM2FlYjkzZjZhMmVjYjAzZTU5NiJ9fX0="
+    name: "menus.level.items.back.name"
+    lore: ""
+    action: "back"
